@@ -1,0 +1,14 @@
+[alias]
+	a = add
+	c = commit
+	d = diff
+	ds = diff --staged
+	dsw = diff --staged --word-diff
+	dw = diff --word-diff
+	l = log --all --decorate --oneline --graph
+	ra = rebase --abort
+	rc = rebase --continue
+	ri = rebase --interactive
+	s = status
+	st = stash --include-untracked
+	stp = stash pop stash@{0}
