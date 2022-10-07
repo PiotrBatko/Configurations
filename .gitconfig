@@ -5,7 +5,8 @@
 	ds = diff --staged
 	dsw = diff --staged --word-diff
 	dw = diff --word-diff
-	l = log --all --decorate --oneline --graph
+	l = log --decorate --oneline --graph
+	la = log --all --decorate --oneline --graph
 	ra = rebase --abort
 	rc = rebase --continue
 	ri = rebase --interactive
