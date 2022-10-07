@@ -12,3 +12,5 @@
 	s = status
 	st = stash --include-untracked
 	stp = stash pop stash@{0}
+[init]
+	defaultBranch = master
