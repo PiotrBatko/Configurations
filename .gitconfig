@@ -10,7 +10,7 @@
 	pf = push --force-with-lease --force-if-includes
 	ra = rebase --abort
 	rc = rebase --continue
-	ri = rebase --interactive
+	ri = rebase --interactive --autostash --autosquash
 	s = status
 	st = stash --include-untracked
 	stp = stash pop stash@{0}
