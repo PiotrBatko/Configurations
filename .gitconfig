@@ -7,6 +7,7 @@
 	dw = diff --word-diff
 	l = log --decorate --oneline --graph
 	la = log --all --decorate --oneline --graph
+	pf = push --force-with-lease --force-if-includes
 	ra = rebase --abort
 	rc = rebase --continue
 	ri = rebase --interactive
