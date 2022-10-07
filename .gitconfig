@@ -11,6 +11,7 @@
 	ra = rebase --abort
 	rc = rebase --continue
 	ri = rebase --interactive --autostash --autosquash
+	rs = rebase --show-current-patch
 	s = status
 	st = stash --include-untracked
 	stp = stash pop stash@{0}
