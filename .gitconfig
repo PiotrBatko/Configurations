@@ -1,6 +1,7 @@
 [alias]
 	a = add
 	c = commit
+	cf = commit --verbose --fixup
 	d = diff
 	ds = diff --staged
 	dsw = diff --staged --word-diff
