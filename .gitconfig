@@ -2,6 +2,9 @@
 	a = add
 	c = commit
 	cf = commit --verbose --fixup
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
 	d = diff
 	ds = diff --staged
 	dsw = diff --staged --word-diff
