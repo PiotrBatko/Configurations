@@ -14,5 +14,7 @@
 	s = status
 	st = stash --include-untracked
 	stp = stash pop stash@{0}
+	su = submodule update
+	suir = submodule update --init --recursive
 [init]
 	defaultBranch = master
